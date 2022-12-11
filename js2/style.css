@@ -1,0 +1,15 @@
+article{
+    border: 2px dashed rgb(76, 136, 201);
+    padding: 40px;
+    margin: 20px;
+    overflow: scroll;
+    background-color: rgb(110, 170, 207);
+    font-family: cursive;
+    font-size: 16px;
+    max-width: 850%;
+    max-height: 220px;
+}
+
+article:hover{
+    box-shadow: 0px 0px 15px rgb(42, 138, 228);
+}
