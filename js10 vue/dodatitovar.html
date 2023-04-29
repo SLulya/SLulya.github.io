@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="name" placeholder="name of product"><br><br>
+    <input type="text" id="price" placeholder="price of product"><br><br>
+    <input type="text" id="img" placeholder="img of product"><br><br> 
+    <input type="text" id="developer" placeholder="developer of product"><br><br>
+    <input type="text" id="reviews" placeholder="number of reviews"><br><br>
+    <select id="category">
+        <option value="products">products</option>
+        <option value="phones">phones</option>
+    </select>
+    <button onclick="addProduct()">Add new product</button>
+
+    <script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-firestore.js"></script>
+    <script src="../firebase/fb.js"></script>
+    <script src="main1.js"></script>
+</body>
+</html>
