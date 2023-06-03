@@ -1,0 +1,15 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(166, 198, 166, 0.979);
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+#test_app{
+    border: 3px solid green;
+    width: 96%;
+    margin: 3px auto;
+    height: 100%;
+}

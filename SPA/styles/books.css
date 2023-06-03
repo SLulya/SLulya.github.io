@@ -1,0 +1,58 @@
+.tovar{
+    border: 2px solid black;
+    width: 250px;
+    height: 600px;
+    margin-left: 10px;
+    font-family: 'Sniglet', cursive;
+    
+}
+.imag{
+    border: 1px solid rgba(73, 71, 72, 0.317);
+    width: 220px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.name{
+    border: 1px solid rgba(73, 71, 72, 0.317);
+    margin-top: 8px;
+    font-size: 23px;
+    width: 240px;
+    margin-left: 3px;
+}
+.do{
+    width: 240px;
+    margin-left: 3px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+
+    font-size: 20px;
+}
+.developer{
+    border: 1px solid rgba(73, 71, 72, 0.317);
+    font-size: 19px;
+    margin-top: 13px;
+    margin-left: 3px;
+}
+.price{
+    border: 1px solid rgba(73, 71, 72, 0.317);
+    font-size: 19px;
+    margin-top: 9px;
+    margin-left: 3px;
+}
+.reviews{
+    border: 1px solid rgba(73, 71, 72, 0.317);
+    font-size: 19px;
+    margin-top: 9px;
+    margin-left: 3px;
+}
+.prod{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+img{
+    height:300px;
+    width: 230px;
+}
