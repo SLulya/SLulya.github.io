@@ -13,15 +13,18 @@
 </head>
 <body>
     
+    
+
+    <div id="test_app" >
     <div class="menu">
         <div class="menu_button"><a href="#/home" class="menu_link btn btn-outline-dark">Головна</a></div>
         <div class="menu_button"><a href="" class="menu_link btn btn-outline-dark">Галерея</a></div>
         <div class="menu_button"><a href="#/products" class="menu_link btn btn-outline-dark">Товари</a></div>
         <div class="menu_button"><a href="" class="menu_link btn btn-outline-dark">Кошик</a></div>
-        <div class="menu_button"><a href="" class="menu_link btn btn-outline-dark">Профіль</a></div>
+        <div class="menu_button"><a href="#/profile" class="menu_link btn btn-outline-dark">Профіль</a></div>
+        <div class="menu_button"><button class="menu_link btn btn-outline-dark" @click="signOut">Вийти</button></div>
     </div>
 
-    <div id="test_app" >
         <component :is="currentView" />
     </div>
 
